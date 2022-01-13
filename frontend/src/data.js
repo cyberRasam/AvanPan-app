@@ -7,7 +7,7 @@ const data = {
       image: '/images/product-1.jpg',
       price: 1200,
       brand: 'Torsepan',
-      rating: 4.5,
+      rating: 3.5,
       numReviews: 10,
       description: 'One of best Hang Drum manufactures product',
     },
