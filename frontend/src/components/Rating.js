@@ -21,7 +21,7 @@ export default function Rating(props) {
             rating >= 2
               ? 'fa fa-star'
               : rating >= 1.5
-              ? 'fa fa-star-half'
+              ? 'fa fa-star-half-o'
               : 'fa fa-star-o'
           }
         ></i>
@@ -32,7 +32,7 @@ export default function Rating(props) {
             rating >= 3
               ? 'fa fa-star'
               : rating >= 2.5
-              ? 'fa fa-star-half'
+              ? 'fa fa-star-half-o'
               : 'fa fa-star-o'
           }
         ></i>
@@ -44,7 +44,7 @@ export default function Rating(props) {
               ? 'fa fa-star'
               : rating >= 3.5
               ? 'fa fa-star-half'
-              : 'fa fa-star-o'
+              : 'far fa-star-o'
           }
         ></i>
       </span>
