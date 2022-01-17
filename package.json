@@ -5,7 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon --watch backend --exec node --experimental-modules backend/server.js"
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "webpack --config=Scripts/config/webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -16,11 +19,14 @@
   "bugs": {
     "url": "https://github.com/cyberRasam/AvanPan-app/issues"
   },
-  "homepage": "https://github.com/cyberRasam/AvanPan-app#readme",
+  "homepage": "https://github.com/cyberRasam/AvanPan-app",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "gh-pages": "^3.2.3"
   },
   "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-plugin-react": "^7.28.0",
     "nodemon": "^2.0.15"
   }
 }
