@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cyberRasam/AvanPan-app.git/static/css/main.2ddc4235.css",
+    "main.js": "/cyberRasam/AvanPan-app.git/static/js/main.b616044b.js",
+    "static/js/787.9750ae9a.chunk.js": "/cyberRasam/AvanPan-app.git/static/js/787.9750ae9a.chunk.js",
+    "index.html": "/cyberRasam/AvanPan-app.git/index.html",
+    "main.2ddc4235.css.map": "/cyberRasam/AvanPan-app.git/static/css/main.2ddc4235.css.map",
+    "main.b616044b.js.map": "/cyberRasam/AvanPan-app.git/static/js/main.b616044b.js.map",
+    "787.9750ae9a.chunk.js.map": "/cyberRasam/AvanPan-app.git/static/js/787.9750ae9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ddc4235.css",
+    "static/js/main.b616044b.js"
+  ]
+}
